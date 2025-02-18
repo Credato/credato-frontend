@@ -1,13 +1,13 @@
-import logo from "./assets/logo.png"; // Make sure you place your logo in 'src/assets/' folder
-import "./App.css"; // Import CSS for styling
+import React from "react";
+import "./App.css";
+import logo from "./assets/logo.png"; // Add your logo here
 
 function App() {
     return (
         <div className="coming-soon-container">
-            <img src={logo} alt="Credato Logo" className="logo" />
-            <h1>Credato is Coming Soon!</h1>
-            <p>We’re working hard to bring you a seamless digital car financing experience.</p>
-            <p>Stay tuned for updates!</p>
+            <img src={logo} alt="Logo" className="logo" />
+            <h1>Coming Soon!</h1>
+            <p>We’re working hard to launch our platform. Stay tuned.</p>
             <button className="notify-btn">Notify Me</button>
         </div>
     );
